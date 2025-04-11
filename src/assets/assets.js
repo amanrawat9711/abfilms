@@ -8,6 +8,10 @@ import contactPhoto from "../assets/contact.jpeg"
 import about1photo from "../assets/about1.jpeg"
 import about2photo from "../assets/about2.jpeg"
 import about3photo from "../assets/about3.jpeg"
+import awardPhoto from "../assets/awards.jpeg"
+import bhumiyal from "../assets/bhumiyal.jpeg"
+import bhumiposter from "../assets/bhumiposter.jpeg"
+import dadi from "../assets/dadi.jpeg"
 export const sampleData = [
     {
         id: 1,
@@ -316,4 +320,4 @@ export const released = [
 ];
 
 
-export  {logo,img1,img2,img3,img4,img5,contactPhoto,about1photo,about2photo,about3photo}
+export  {logo,img1,img2,img3,img4,img5,contactPhoto,about1photo,about2photo,about3photo,awardPhoto,bhumiyal,bhumiposter,dadi}

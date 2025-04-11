@@ -6,24 +6,35 @@ const Allfilms = () => {
   const navigate = useNavigate();
   return (
     <div className="m-3">
-      <div className="flex flex-wrap gap-10 ">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
         {sampleData.map((item, index) => (
-          <div className="shadow-md mt-5 p-1 cursor-pointer " key={index} onClick={()=>navigate(`/films/${item.id}`)}>
-            <img className="w-63.5" src={item.images[0]} />
-            <p
-              style={{ fontWeight: 700 }}
-              className="text-md font-black uppercase tracking-wide text-gray-700"
-            >
-              {item.title}{" "}
+          <div
+            key={index}
+            className="shadow-md p-2 cursor-pointer"
+            onClick={() => navigate(`/films/${item.id}`)}
+          >
+            <img
+              className="w-full h-auto object-cover max-h-[150px] sm:max-h-[180px] md:max-h-[200px] lg:max-h-[220px]"
+              src={item.images[0]}
+              alt={item.title}
+            />
+            <p className="text-sm font-black uppercase tracking-wide text-gray-700 mt-2">
+              {item.title}
             </p>
-            <p className="text-sm text-gray-500">{item.about}</p>
+            <p className="text-xs text-gray-500">
+              {item.about.split("|")[0]} | {item.about.split("|")[1]}
+              <br />
+              {item.about.split("|")[2]}
+            </p>
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center">
+
+      {/* All Films button */}
+      <div className="flex items-center justify-center mt-10">
         <button
           onClick={() => navigate("/films")}
-          className="mt-15 cursor-pointer px-6 py-2 border rounded-md hover:text-white hover:bg-black"
+          className="px-6 py-2 border rounded-md hover:text-white hover:bg-black"
         >
           All Films
         </button>

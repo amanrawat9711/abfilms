@@ -42,7 +42,7 @@ const Institute = () => {
 
         {/* Screenwriting */}
         <li>
-          <h3 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">Screenwriting</h3>
+          <h3 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">Script Writing</h3>
           <p className="text-base sm:text-lg leading-relaxed">
             Our screenwriting blends culture, tradition, and modern narratives. Each script is crafted with care to reflect the authenticity of our roots while appealing to a wider audience, forming the backbone of our acclaimed Garhwali and Hindi productions.
           </p>
@@ -52,7 +52,7 @@ const Institute = () => {
       {/* Alumni Section */}
       <div className="mt-12">
         <h3 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4">
-          Alumni Success Stories
+          Biography & Documentry Films
         </h3>
         <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
           We take pride in our alumni who are now working in the film industry across India. Some have directed award-winning short films, while others have excelled in acting and cinematography.

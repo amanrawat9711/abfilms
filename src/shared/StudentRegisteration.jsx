@@ -6,7 +6,7 @@ const StudentRegistrationForm = () => {
             <h3 className="text-3xl text-center font-bold text-gray-900">Student Registration Form</h3>
       <form
         className="space-y-4 max-w-xl mx-auto mt-6"
-        action="https://formsubmit.co/amanrawat9711@gmail.com"
+        action="https://formsubmit.co/abfilmindia@gmail.com"
         method="POST"
       >
         <input type="text" name="name" placeholder="Full Name" className="w-full p-2 border rounded" required />

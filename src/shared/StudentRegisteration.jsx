@@ -20,10 +20,8 @@ const StudentRegistrationForm = () => {
           <option>Cinematography</option>
           <option>Screenwriting</option>
         </select>
-  
-        {/* Anti-spam hidden field (required by FormSubmit) */}
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="https://abfilms.vercel.app/services" />
+        <input type="hidden" name="_next" value="https://abfilms.vercel.app/about" />
   
         <button type="submit" className="cursor-pointer px-4 py-2 bg-black text-white rounded hover:bg-gray-800">
           Submit

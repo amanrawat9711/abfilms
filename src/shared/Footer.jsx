@@ -44,7 +44,10 @@ const Footer = () => {
           <FaYoutubeSquare className="text-4xl cursor-pointer" />
           <FaPhoneSquare className="text-4xl cursor-pointer"/>
 <FaFacebookSquare className="text-4xl cursor-pointer"/>
-<ImMail className="text-[2.1rem] cursor-pointer" />
+<a href="mailto:abfilmindia@gmail.com?subject=Artist%20Registration&body=Hi%ABfilm,%20I%20want%20to%20join...">
+  <ImMail className="text-[2.1rem] cursor-pointer" />
+</a>
+
         </div>
      
     </div>

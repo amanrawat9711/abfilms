@@ -121,7 +121,7 @@ const Contact = () => {
 
   <input type="hidden" name="_captcha" value="false" />
 
-  <input type="hidden" name="_next" value="http://localhost:5173/contact" />
+  <input type="hidden" name="_next" value="https://abfilms.vercel.app/contact" />
 </form>
 
       <div className="w-full flex justify-center mb-28 mt-15">

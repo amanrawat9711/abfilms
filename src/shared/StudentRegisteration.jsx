@@ -23,7 +23,7 @@ const StudentRegistrationForm = () => {
   
         {/* Anti-spam hidden field (required by FormSubmit) */}
         <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="http://localhost:5173/services" />
+        <input type="hidden" name="_next" value="https://abfilms.vercel.app/services" />
   
         <button type="submit" className="cursor-pointer px-4 py-2 bg-black text-white rounded hover:bg-gray-800">
           Submit

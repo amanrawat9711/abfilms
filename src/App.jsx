@@ -14,7 +14,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-    <div className="m-20">
+    <div className="m-4 md:m-7 lg:m-20 ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

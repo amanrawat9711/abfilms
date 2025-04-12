@@ -37,7 +37,7 @@ const Footer = () => {
             scrollTo(0, 0);
           }}
         >
-          All Films
+          Our Clients
         </p>
         <p
           className="cursor-pointer underline"

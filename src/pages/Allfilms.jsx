@@ -30,15 +30,6 @@ const Allfilms = () => {
         ))}
       </div>
 
-      {/* All Films button */}
-      <div className="flex items-center justify-center mt-10">
-        <button
-          onClick={() => navigate("/films")}
-          className="px-6 py-2 border rounded-md hover:text-white hover:bg-black"
-        >
-          All Films
-        </button>
-      </div>
     </div>
   );
 };

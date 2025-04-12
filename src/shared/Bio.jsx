@@ -16,11 +16,12 @@ const Bio = () => {
       </h1>
 
       <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-10 items-center">
-        <img
-          src={contactPhoto}
-          alt="Left"
-          className="hidden lg:block w-36 h-36 md:w-52 md:h-52 object-cover rounded-4xl border shadow-lg"
-        />
+      <img
+  src={contactPhoto}
+  alt="Left"
+  className="hidden min-[1300px]:block w-36 h-36 md:w-52 md:h-52 object-cover rounded-4xl border shadow-lg"
+/>
+
 
         {/* Center 4 images */}
         {[bhumiyal, dadi, about3photo, bhumiposter].map((img, index) => (
@@ -36,10 +37,11 @@ const Bio = () => {
 
         {/* Right large image - only on large screens */}
         <img
-          src={awardPhoto}
-          alt="Right"
-          className="hidden lg:block w-36 h-36 md:w-52 md:h-52 object-cover rounded-4xl border shadow-lg"
-        />
+  src={awardPhoto}
+  alt="Right"
+  className="hidden min-[1300px]:block w-36 h-36 md:w-52 md:h-52 object-cover rounded-4xl border shadow-lg"
+/>
+
       </div>
 
       {/* Description */}

@@ -15,11 +15,11 @@ const Footer = () => {
         <p
           className="cursor-pointer underline"
           onClick={() => {
-            navigate("/about");
+            navigate("/");
             scrollTo(0, 0);
           }}
         >
-          About
+          Home
         </p>
         <p
           className="cursor-pointer underline"

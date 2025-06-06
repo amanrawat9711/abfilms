@@ -3,7 +3,7 @@ import React from "react";
 const StudentRegistrationForm = () => {
     return (
         <div >
-            <h3 className="text-3xl text-center font-bold text-gray-900">Junior Registration Form</h3>
+            <h3 className="text-3xl text-center font-bold text-gray-900">Artist Registration Form</h3>
       <form
         className="space-y-4 max-w-xl mx-auto mt-6"
         action="https://formsubmit.co/abfilmindia@gmail.com"

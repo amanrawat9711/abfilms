@@ -19,6 +19,26 @@ const StudentRegistrationForm = () => {
           <option>Editing</option>
           <option>Cinematography</option>
           <option>Screenwriting</option>
+          <option>Singer</option>
+          <option>Dancer</option>
+          <option>Makeup</option>
+             <option>Editor</option>
+          <option>Artist</option>
+          <option>Costume </option>
+          <option>Designer</option>
+          <option>Sound </option>
+          <option>Engineer</option>
+          <option>Choreographer</option>
+          <option>Art Director</option>
+                <option>Visual Effects Artist</option>
+          <option>Production</option>
+          <option>Stunt  </option>
+          <option>Coordinator</option>
+          <option>Lighting Technician </option>
+          <option>Music Composer</option>
+          <option>Lyricist</option>
+          <option>Set Designer</option>
+            <option>Assistant Director</option>
         </select>
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_next" value="https://abfilms.vercel.app/about" />
